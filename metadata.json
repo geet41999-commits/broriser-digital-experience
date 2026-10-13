@@ -1,0 +1,6 @@
+{
+  "name": "BroRiser Institutional Real Estate",
+  "description": "Institutional real estate consulting delivering transparent due diligence, verified property opportunities, and family office advisory across Mumbai, Gurugram, and Bengaluru.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

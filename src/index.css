@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FBF9F5;
+    color: #1B1C1A;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Fine hairline line discipline */
+.border-hairline {
+  border-color: #E2DFD8;
+}
+
+.bg-canvas {
+  background-color: #FBF9F5;
+}
+
+.bg-surface-low {
+  background-color: #F5F2EB;
+}
+
+.bg-surface-card {
+  background-color: #FFFFFF;
+}
+
+.text-obsidian {
+  color: #121316;
+}
+
+.text-forest {
+  color: #1E3A2F;
+}
+
+.text-brass {
+  color: #C5A880;
+}
